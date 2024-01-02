@@ -2,6 +2,8 @@ sudo apt-get update
 
 sudo apt-get upgrade -y
 
+sudo ufw disable
+
 sudo apt install curl apt-transport-https -y
 
 sudo curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
